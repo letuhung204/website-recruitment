@@ -1,0 +1,271 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+  <title>Careers &mdash; Website Template by Colorlib</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="css/custom-bs.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/bootstrap-select.min.css">
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+  <link rel="stylesheet" href="fonts/line-icons/style.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .bg-image{
+           background-image: url("https://dreamcloudgroup.jp/gr_wp/wp-content/uploads/company.jpg");
+         }
+    .site-navbar .site-navigation .site-menu > li > a{
+      padding: 5px 10px !important;
+      color: #f8f9fa;
+      display: inline-block;
+      text-decoration: none !important;
+      font-weight: bold !important;
+      font-size: 18px !important;
+    }
+    .site-navbar .site-navigation .site-menu > li > a:hover{
+      color: #172bff !important;
+    }
+    #outer{
+      font-family: 'swis721','nsans','メイリオ',Meiryo,'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro',Osaka,sans-serif;
+      color: #666;
+      font-size: 16px;
+      line-height: 1.75;
+    }
+    .tit-intro:first-child {
+      margin-top: 0;
+    }
+    .tit-intro {
+      font-size: 27px;
+      line-height: 1.25;
+      position: relative;
+      margin: 75px 0 45px;
+      text-align: center;
+      padding: 25px 0;
+      color: #000;
+      border-top: 1px solid #000;
+      /*border-bottom: 1px solid #000;*/
+    }
+    .common-tb {
+      border-top: 1px solid #ddd;
+      border-left: 1px solid #ddd;
+      margin-top: -1px;
+    }
+    table {
+      border-spacing: 0;
+      border-collapse: separate;
+      width: 100%;
+    }
+    .common-tb.prf th {
+      width: 11em;
+    }
+    .common-tb th, .common-tb td {
+      border-right: 1px solid #ddd;
+      border-bottom: 1px solid #ddd;
+      padding: 29px 19px;
+    }
+    .common-tb th {
+      background: #efefef;
+      width: 30%;
+    }
+    .common-tb td {
+      background: #fff;
+    }
+    .breadcrumb {
+      margin-top: -8%;
+      background: transparent;
+      font-size: 16px;
+    }
+  </style>
+</head>
+
+<body id="top">
+  <div class="site-wrap">
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div> <!-- .site-mobile-menu -->
+
+    <!-- NAVBAR -->
+    <header class="site-navbar mt-3">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="site-logo col-6"><a href="/home"><img src="images/logo_worknavi.PNG" style="width: 40%"> </img></a></div>
+
+          <nav class="mx-auto site-navigation">
+            <ul class="site-menu js-clone-nav d-none d-xl-block ml-0 pl-0">
+              <li><a href="/home" class="nav-link">Trang Chủ</a></li>
+              <li><a href="/list-job">Danh Sách Công Việc</a></li>
+              <li><a href="/about" class="active">Về Chúng Tôi</a></li>
+              <li><a href="/services">Dịch Vụ</a></li>
+              <li><a href="/blogs">Tin Tức</a></li>
+              <li class="d-lg-none"><a href="/contact">Liên Hệ</a></li>
+            </ul>
+          </nav>
+
+          <div class="right-cta-menu text-right d-flex aligin-items-center col-6">
+            <div class="ml-auto">
+              <a href="/contact" class="btn btn-primary border-width-2 d-none d-lg-inline-block"><span
+                  class="mr-2 icon-paper-plane"></span>Liên Hệ</a>
+            </div>
+            <a href="/contact" class="site-menu-toggle js-menu-toggle d-inline-block d-xl-none mt-lg-2 ml-3"><span
+                class="icon-menu h3 m-0 p-0 mt-2"></span></a>
+          </div>
+
+        </div>
+      </div>
+    </header>
+
+    <!-- HOME -->
+    <section class="home-section section-hero inner-page overlay bg-image"
+ id="home-section">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-12">
+            <div class="mb-5 text-center">
+              <h1 class="text-white font-weight-bold">Về Chúng Tôi</h1>
+              <p>Giới thiệu về công ty AT Navi Japan.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="site-section pb-0">
+      <div id="breadcrumb">
+        <div class="container">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="/home">Trang Chủ</a></li>
+              <li class="breadcrumb-item" aria-current="page">Về Chúng Tôi</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row align-items-center">
+          <div id="outer">
+            <div id="column-outer">
+              <article id="main-column" class="container-fluid">
+                <section id="page-introduction">
+                  <div class="container">
+                    <h3 class="tit-intro">Giới Thiệu Về Công Ty</h3>
+
+                    <table class="common-tb prf">
+                      <tr><th>Tên Dịch Vụ</th><td>Work Navi Japan</td></tr>
+                      <tr><th>Công Ty Điều Hành</th><td>Công T Cổ Phần AT Navi Japan</td></tr>
+                      <tr><th>Giám Đốc Đại Diện</th><td>Kato Yu</td></tr>
+                      <tr><th>Địa Điểm</th><td>[Trụ sở chính] 150-0002, Shibuya-ku, Tokyo 3-8-11 Shibuya 3-chome TR Building 5F<br>[Vietnam] 6floo, no 52-54 Le thanh nghi Str, Bach, khoa Ward, Hai ba trung, Thành phố Hà Nội</td></tr>
+                      <tr><th>Liên Hệ</th><td>TEL. <span data-action="call">03-4580-9814</span> / FAX. 03-6701-2464</td></tr>
+                      <tr><th>Giấy Phép Kinh Doanh</th><td>Bộ trưởng Bộ Y tế, Lao động và Phúc lợi 13-Yu-308153<br>Giấy phép hỗ trợ đăng ký Bộ Tư pháp 19</td></tr>
+                      <tr><th>Vốn Điều Lệ</th><td>18.540.000 yên (bao gồm cả dự trữ vốn)</td></tr>
+                      <tr><th>Tổ chức thành viên</th><td><a href="https://www.huredee.org" target="_blank">Tổ chức hỗ trợ nguồn nhân lực nước ngoài</a>、<a href="https://hatarakikatakaikaku.jp" target="_blank"> Hiệp hội cải cách phong cách làm việc Nhật Bản</a></td></tr>
+                      <tr><th>Xúc tiến kinh doanh trước</th><td>Đại học Bách Khoa Hà Nội, Tổ chức hỗ trợ nguồn nhân lực nước ngoài, các trường đại học Việt Nam</td></tr>
+                      <tr><th>Nội dung kinh doanh</th><td>Hỗ trợ tuyển dụng kỹ sư nước ngoài, hỗ trợ việc làm cho sinh viên nước ngoài, tư vấn thành lập công ty Việt Nam</td></tr>
+                    </table>
+
+                    <div class="mt-lg">
+                      <div class="line-frame">
+                        <div class="embed-responsive er-1by1 er-lg-2by1">
+                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.7964524455756!2d139.70208781565196!3d35.65738628019989!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b5971375c45%3A0xd1ff495c61ae9c54!2z44CSMTUwLTAwMDIg5p2x5Lqs6YO95riL6LC35Yy65riL6LC377yT5LiB55uu77yY4oiS77yR77yR!5e0!3m2!1sja!2sjp!4v1576068151635!5m2!1sja!2sjp" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                        </div>
+                      </div>
+                    </div>
+
+                    <h3 class="tit-intro">Các Trường Đại Học Đối Tác Ở Nước Ngoài</h3>
+
+                    <a href="https://en.hust.edu.vn/home" target="_blank"><img src="images/banner1.jpg" width="1500" height="300" alt="" class="img-fluid mx-auto"></a>
+
+                    <h3 class="tit-intro">Sự Kiện </h3>
+
+                    <div class="row row-grid justify-content-start">
+                      <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                        <a href="http://net.keizaikai.co.jp/archives/business_trend/19482" target="_blank"><img src="images/banner2.jpg" width="1500" height="300" alt="" class="img-fluid mx-auto"></a>
+                      </div>
+                      <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                        <a href="https://www.nhk.or.jp/politics/articles/statement/11873.html" target="_blank"><img src="images/banner3.jpg" width="1500" height="300" alt="" class="img-fluid mx-auto"></a>
+                      </div>
+                      <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                        <a href="https://k-tsushin.jp/interview/kt51_navi-vietnam/" target="_blank"><img src="images/banner4.jpg" width="1500" height="300" alt="" class="img-fluid mx-auto"></a>
+                      </div>
+                      <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                        <a href="https://superceo.jp/tokusyu/selection/100688" target="_blank"><img src="images/banner5.jpg" width="1500" height="300" alt="" class="img-fluid mx-auto"></a>
+                      </div>
+                    </div>
+
+                  </div>
+                </section>
+              </article>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+   
+    
+    <section class="site-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center" data-aos="fade">
+            <h2 class="section-title mb-3 tit-intro">Giám đốc đại diện Kato Yu
+              </h2>
+          </div>
+        </div>
+    
+        <div class="row align-items-center block__69944">
+    
+          <div class="col-md-12">
+            <a href="http://japan-business-headline.com/vi/interview-vi/cong-ty-co-phan-at-navi-japan/"><img src="images/ceo_navi_vn.jpg" alt="Image" class="img-fluid mb-4 rounded" style="width: 100%"></a>
+
+            <a href="http://japan-business-headline.com/vi/interview-vi/cong-ty-co-phan-at-navi-japan/"><h3>KATO YU</h3></a>
+            <p class="text-muted">CEO/Chủ Tịch</p>
+            <p>Sinh ra ở tỉnh Mie năm 1978. Đại học Waseda bỏ học.
+              Sau khi làm việc trong phần đầu tiên của Sở giao dịch chứng khoán Tokyo, bắt đầu vào năm 2003, tiếp theo là kinh doanh bất động sản, Midori Securities (hiện là Japan Cloud Securities Co., Ltd.), và bây giờ.
+              Trung tâm nghề nghiệp duy nhất (Trung tâm tư vấn việc làm Nhật Bản) tại Đại học Công nghệ Hà Nội, là khoa khoa học và kỹ thuật cao nhất, được thành lập như một công ty Nhật Bản duy nhất, kết nối các kỹ sư xuất sắc đến Nhật Bản và gửi tiếng Nhật chuyên nghiệp đến Việt Nam (hai chiều dịch vụ R người). Tập trung vào.
+              Hơn 40 cuộc phỏng vấn / bài giảng / cột được viết hàng năm và các cột được xê-ri hóa từ thế giới kinh tế trên thế giới với những quan điểm độc đáo.
+              Được chọn là một công ty đáng chú ý năm 2016.
+              Truyền thông bao gồm truyền hình trực tiếp trên truyền hình cho đến sáng mai.</p>
+            <div class="social mt-4">
+              <a href="https://www.facebook.com/atnavi"><span class="icon-facebook"></span></a>
+              <a href="https://www.facebook.com/atnavi"><span class="icon-twitter"></span></a>
+              <a href="https://www.facebook.com/atnavi"><span class="icon-instagram"></span></a>
+              <a href="https://www.facebook.com/atnavi"><span class="icon-linkedin"></span></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <div th:include="career/googlemap :: googlemap"></div>
+    <div th:include="career/footer :: footer"></div>
+
+  </div>
+
+  <!-- SCRIPTS -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+  <script src="js/stickyfill.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+
+  <script src="js/custom.js"></script>
+
+
+</body>
+
+</html>

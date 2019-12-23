@@ -1,0 +1,7 @@
+
+‚squid:S26377"f"uername" is marked "javax.validation.constraints.NotNull" but is not initialized in this constructor.(¹‹ÖŠùÿÿÿÿ
+‚squid:S26373"f"uername" is marked "javax.validation.constraints.NotNull" but is not initialized in this constructor.(‘Êíüıÿÿÿÿ
+zsquid:UselessImportCheck"QRemove this unused import 'org.hibernate.validator.constraints.CreditCardNumber'.(“›øçşÿÿÿÿ
+Isquid:S1135}"2Complete the task associated to this TODO comment.(ª‚Ù•
+asquid:HiddenFieldCheck"9Rename "other" which hides the field declared at line 45.(ªÌ•Òøÿÿÿÿ
+Ysquid:S1126‚"AReplace this if-then-else statement by a single return statement.(…¨­

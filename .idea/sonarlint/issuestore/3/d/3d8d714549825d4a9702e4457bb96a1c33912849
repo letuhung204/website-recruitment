@@ -1,0 +1,5 @@
+
+Vsquid:S1118":Add a private constructor to hide the implicit public one.(¼öÁùÿÿÿÿ
+rsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(½Êîâ
+Esquid:S2786")Remove this redundant "static" qualifier.(ß¶³İÿÿÿÿÿ
+Ksquid:EmptyStatementUsageCheck"Remove this empty statement.(ß¶³İÿÿÿÿÿ

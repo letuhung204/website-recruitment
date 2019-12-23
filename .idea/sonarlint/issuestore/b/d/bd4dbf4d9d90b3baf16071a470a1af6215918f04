@@ -1,0 +1,10 @@
+
+esquid:S4488+"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(Äü :8Û”ô¸í-
+Osquid:S1068",Remove this unused "errorMsg" private field.(¹“ôªûÿÿÿÿ8Û”ô¸í-
+msquid:S4488P"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(ÃÐœ‡üÿÿÿÿ8Û”ô¸í-
+ysquid:S1450"VRemove the "usersys" field and declare it as a local variable in the relevant methods.(Ë½·Ÿÿÿÿÿÿ8Û”ô¸í-
+Nsquid:S1068"+Remove this unused "usersys" private field.(Ë½·Ÿÿÿÿÿÿ8Û”ô¸í-
+Tsquid:S1068"1Remove this unused "errorMsgTable" private field.( ‰ýÚûÿÿÿÿ8Û”ô¸í-
+csquid:S4684Q"@Replace this persistent entity with a simple POJO or DTO object.(ýèâ‹úÿÿÿÿ8•›°¹í-
+Vsquid:S1068"3Remove this unused "successMsgTable" private field.(ÌË¡†øÿÿÿÿ8Û”ô¸í-
+Msquid:S5411["*Use the primitive boolean expression here.(ÊÈÏÝþÿÿÿÿ8•›°¹í-

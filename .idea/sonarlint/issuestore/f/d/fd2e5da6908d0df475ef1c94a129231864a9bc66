@@ -1,0 +1,15 @@
+
+ysquid:UselessImportCheck"IRemove this unused import 'org.springframework.web.servlet.ModelAndView'.(Ç¨ÿäûÿÿÿÿ8Íôñ¸í-
+fsquid:UselessImportCheck";Remove this unused import 'com.corlogy.service.JobService'.(ùÜ°ß8Şİò¸í-
+esquid:S4488+"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(«Åé8ÈÎş°í-
+ksquid:S44881"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(é˜†ûÿÿÿÿ8±éÿ°í-
+ksquid:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(Ü…ÉÑúÿÿÿÿ8„û•éì-
+ksquid:S4488 "HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(¦¼®‚şÿÿÿÿ8Áõù°í-
+dsquid:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(¬øßûùÿÿÿÿ
+ƒsquid:UselessImportCheck"SRemove this unused import 'org.springframework.beans.factory.annotation.Autowired'.(¡¸Îùÿÿÿÿ8Şİò¸í-
+ksquid:S4488<"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(„½Ü“üÿÿÿÿ8„•ƒ±í-
+[squid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8Íôñ¸í-
+fsquid:S4488%"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(õõŸ8ˆéü°í-
+psquid:UselessImportCheck"@Remove this unused import 'com.corlogy.service.ApplyJobService'.(úïªøüÿÿÿÿ8Şİò¸í-
+]squid:UselessImportCheck"2Remove this unused import 'com.corlogy.model.Job'.(Š¸¨½8Íôñ¸í-
+ksquid:S44887"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(å’äíÿÿÿÿÿ8°±í-

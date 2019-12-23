@@ -1,0 +1,6 @@
+
+ssquid:S1450"WRemove the "usersyss" field and declare it as a local variable in the relevant methods.(ªÀ÷àøÿÿÿÿ
+_squid:S4488)"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ÖŸ‚…
+Wsquid:S4684:"@Replace this persistent entity with a simple POJO or DTO object.(ÍÌÔÁ
+fsquid:S44889"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(¹ÿìúÿÿÿÿ
+Jsquid:S1172K".Remove this unused method parameter "userSys".(ïŒòÿÿÿÿÿ
