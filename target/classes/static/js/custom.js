@@ -7,6 +7,7 @@ jQuery(function($) {
 		$('.js-clone-nav').each(function() {
 			var $this = $(this);
 			$this.clone().attr('class', 'site-nav-wrap').appendTo('.site-mobile-menu-body');
+
 		});
 
 
@@ -78,8 +79,16 @@ jQuery(function($) {
 				}
 			}
 		});
+		$(".site-mobile-menu-body").find('.site-nav-wrap ').find('li').each(function (index) {
+			$(this).click(function () {
+				window.location.href= $(this).find('a').attr('href');
+			})
+		})
 	};
 	siteMenuClone();
+
+
+
 
 
 	var sitePlusMinus = function() {

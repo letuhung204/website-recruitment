@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="navi-gate-japan:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>navi-gate-japan</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="corlogywebtemplate-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="navi-gate-japan:war exploded" />
+    </root>
+  </artifact>
+</component>
